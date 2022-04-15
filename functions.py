@@ -21,7 +21,7 @@ def grab_population_data(url):
     pass
 
 
-def save_json_to_csv(data, filename):
+def convert_json_to_csv(data, filename):
     """
     Saves a file to csv locally using the given filename.
     :param data: dict object containing data from api endpoint
@@ -29,7 +29,12 @@ def save_json_to_csv(data, filename):
     """
     """
     hint:
-        Don't use repr, instead use the json.dumps() library (you will also need to use str(data)) 
+        Don't use repr, instead use the json.load() and json.dumps() library (you will also need to use str(data))
+        
+        id_nation,id_year,nation,population,slug_nation,year
+        01000US,2018,United States,327167439,united-states,2018
+        ...
+        
     """
     # TODO(chimingbells) Write Code Below
     pass
